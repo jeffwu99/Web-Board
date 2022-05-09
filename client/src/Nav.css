@@ -1,0 +1,45 @@
+.super{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.minor {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navBar {
+  text-decoration: none;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.navBar:hover{
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+#userIcons{
+  margin-right: 40px;
+}
+
+/*this is the className for items when on landing page*/
+.landingPage {
+  text-decoration: none;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.landingPage:hover{
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
